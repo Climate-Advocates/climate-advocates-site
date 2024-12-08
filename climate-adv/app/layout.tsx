@@ -23,7 +23,7 @@ export default function RootLayout({
           color: "white", // Optional
         }}
       >
-        <div className="mb-20 ">
+        <div className=" ">
           <Navbar />
         </div>
         {children}

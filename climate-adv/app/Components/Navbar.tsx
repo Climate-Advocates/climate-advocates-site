@@ -8,7 +8,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-gray-900 bg-opacity-70 p-4 rounded-b-lg shadow-lg h-20 flex justify-center items-center gap-5 fixed top-0 w-full z-50">
+    <nav className="bg-green-950 bg-opacity-70 p-4 rounded-b-lg shadow-lg h-20 flex justify-center items-center gap-5 fixed top-0 w-full z-50">
       {/* Logo */}
       <div className="absolute left-10 top-1/2 transform -translate-y-1/2">
         <Image
@@ -23,10 +23,10 @@ export default function Navbar() {
       <ul className="flex list-none gap-14 m-0 p-0 text-lg">
         {[
           { href: "/", label: "Home" },
-          { href: "/pages/about", label: "Discussions" },
-          { href: "/pages/contact", label: "Articles" },
-          { href: "/pages/contact", label: "Waste Management" },
-          { href: "/pages/contact", label: "About Us" },
+          { href: "/discussions", label: "Discussions" },
+          { href: "/articles", label: "Articles" },
+          { href: "/waste-management", label: "Waste Management" },
+          { href: "/about", label: "About Us" },
         ].map((link) => (
           <li key={link.label}>
             <Link

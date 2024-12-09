@@ -2,13 +2,13 @@ import { Card, CardHeader, CardFooter, Image, Button } from "@nextui-org/react";
 
 export default function VideoCardSet() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-2/4 ">
+    <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-2/4 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
       <Card
         isFooterBlurred
         className="w-full h-[350px] col-span-12 sm:col-span-7"
       >
         {/* Header */}
-        <CardHeader className="absolute z-10 top-1 flex-col items-start">
+        <CardHeader className="absolute z-10  flex-col items-start bg-gradient-to-b from-black/70 to-transparent p-2 rounded">
           <p className="text-xs text-white/70 uppercase font-semibold tracking-wide">
             Discussion about Waste Management
           </p>

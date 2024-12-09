@@ -17,13 +17,13 @@ export default function Home() {
           backgroundImage: `url(${BackgroundImage.src})`,
         }}
       >
-        <div className="absolute top-0 left-0 w-full h-full bg-black/80 flex items-center justify-center">
+        <div className="absolute top-0 left-0 w-screen h-full bg-black/80 flex items-center justify-center">
           <div className="flex flex-col items-center w-10/12 h-3/4 space-y-6 px-6">
             {/* Large Card */}
             <h1 className="text-4xl font-bold mb-6">
               Featured Articles and Posts
             </h1>
-            <div className=" gap-20 bg-gray-900 bg-opacity-50 rounded-lg px-8 py-6 text-center flex ">
+            <div className=" gap-20 bg-green-950 bg-opacity-70 rounded-3xl px-8 py-6 text-center flex ">
               <VideoCardSet />
               <VideoCardSet />
             </div>

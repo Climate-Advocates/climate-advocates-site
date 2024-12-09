@@ -5,39 +5,56 @@ export default function VideoCardSet() {
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-full h-2/4 ">
       <Card
         isFooterBlurred
-        className="w-full h-[300px] col-span-12 sm:col-span-7"
+        className="w-full h-[350px] col-span-12 sm:col-span-7"
       >
+        {/* Header */}
         <CardHeader className="absolute z-10 top-1 flex-col items-start">
-          <p className="text-tiny text-white/60 uppercase font-bold">
-            Your day your way
+          <p className="text-xs text-white/70 uppercase font-semibold tracking-wide">
+            Discussion about Waste Management
           </p>
-          <h4 className="text-white/90 font-medium text-xl">
-            Your checklist for better sleep
+          <h4 className="text-white font-bold text-xl mt-1">
+            Insights from Arvid Solheim
           </h4>
         </CardHeader>
+
+        {/* Video Thumbnail */}
         <Image
           removeWrapper
-          alt="Relaxing app background"
+          alt="Waste management discussion thumbnail"
           className="z-0 w-full h-full object-cover"
-          src="https://nextui.org/images/card-example-5.jpeg"
+          src="https://img.youtube.com/vi/0PR1Tg6U67I/0.jpg" // YouTube thumbnail
         />
-        <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-          <div className="flex flex-grow gap-2 items-center">
+
+        {/* Footer */}
+        <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100 flex justify-between items-center">
+          {/* Project Logo */}
+          <div className="flex items-center gap-2">
             <Image
-              alt="Breathing app icon"
+              alt="Project Logo"
               className="rounded-full w-10 h-11 bg-black"
-              src="https://nextui.org/images/breathing-app-icon.jpeg"
+              src="/images/Logo.png"
             />
             <div className="flex flex-col">
-              <p className="text-tiny text-white/60">Breathing App</p>
-              <p className="text-tiny text-white/60">
-                Get a good night&#39;s sleep.
+              <p className="text-sm text-white text-left">
+                Discover effective waste management practices for Sri Lanka.
               </p>
             </div>
           </div>
-          <Button radius="full" size="sm">
-            Get App
-          </Button>
+
+          {/* Button */}
+          <a
+            href="https://www.youtube.com/watch?v=0PR1Tg6U67I"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button
+              radius="full"
+              size="sm"
+              className="bg-red-500 hover:bg-red-700 text-white"
+            >
+              Watch on YouTube
+            </Button>
+          </a>
         </CardFooter>
       </Card>
     </div>

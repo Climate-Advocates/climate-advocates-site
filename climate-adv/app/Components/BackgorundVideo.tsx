@@ -3,7 +3,7 @@ export default function BackgroundVideo() {
     <div className="relative top-0 left-0 w-full h-full overflow-hidden">
       {/* Adjusted YouTube Video */}
       <iframe
-        src="https://www.youtube.com/embed/ujnX5u1Pt5s?si=mtExJkxoAe1l4SYT&autoplay=1&mute=1&loop=1&playlist=ujnX5u1Pt5s"
+        src="https://www.youtube.com/embed/wyAfQBSOeFg?autoplay=1&mute=1&loop=1&playlist=wyAfQBSOeFg"
         title="YouTube background video"
         allow="autoplay; fullscreen"
         style={{ border: 0 }}

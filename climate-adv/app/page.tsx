@@ -3,7 +3,7 @@ import Card from "./Components/CardCarausal";
 import VCard2 from "./Components/videoCards/vCard2";
 import VCard3 from "./Components/videoCards/vCard3";
 import VCard4 from "./Components/videoCards/vCard4";
-import VideoCardSet from "./Components/VIdeoCardSet";
+import VideoCardSet from "./Components/videoCards/VIdeoCardSet";
 import "./globals.css";
 import BackgroundImage from "./public/images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg";
 
@@ -32,7 +32,7 @@ export default function Home() {
               <VCard4 />
             </div>
 
-            <div className="w-dvw mb py-4 ">
+            <div className="w-dvw mb py-4 px-12 ">
               {/* card set to show rececnt articles */}{" "}
               <div className="flex space-x-4 overflow-x-auto scrollbar-hide">
                 <Card

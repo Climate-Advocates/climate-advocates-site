@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardFooter, Image, Button } from "@nextui-org/react";
 
-export default function VideoCardSet() {
+export default function VCard2() {
   return (
     <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-5/12 h-2/4 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
       <Card
@@ -8,12 +8,12 @@ export default function VideoCardSet() {
         className="w-full h-[350px] col-span-12 sm:col-span-7"
       >
         {/* Header */}
-        <CardHeader className="absolute z-10  flex-col items-start bg-gradient-to-b from-black/90 to-black/20 p-2 rounded">
+        <CardHeader className="absolute z-10  flex-col items-start bg-gradient-to-b from-black/70 to-transparent p-2 rounded">
           <p className="text-xs text-white/70 uppercase font-semibold tracking-wide">
-            Discussion about Waste Management
+            Discussion about Decarbanization P-I{" "}
           </p>
           <h4 className="text-white font-bold text-xl mt-1">
-            Insights from Arvid Solheim
+            Insights from Don Sandev Ferdinando
           </h4>
         </CardHeader>
 
@@ -22,7 +22,7 @@ export default function VideoCardSet() {
           removeWrapper
           alt="Waste management discussion thumbnail"
           className="z-0 w-full h-full object-cover"
-          src="https://img.youtube.com/vi/0PR1Tg6U67I/0.jpg" // YouTube thumbnail
+          src="https://img.youtube.com/vi/umCyhuRbWUM/0.jpg"
         />
 
         {/* Footer */}
@@ -43,7 +43,7 @@ export default function VideoCardSet() {
 
           {/* Button */}
           <a
-            href="https://www.youtube.com/watch?v=0PR1Tg6U67I"
+            href="https://www.youtube.com/watch?v=umCyhuRbWUM"
             target="_blank"
             rel="noopener noreferrer"
           >

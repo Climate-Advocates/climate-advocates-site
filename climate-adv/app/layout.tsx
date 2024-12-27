@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "../app/Components/Navbar";
+import { FooterComponent } from "./Components/Footer";
 
 export const metadata: Metadata = {
   title: "Climate Advocates",
@@ -20,13 +21,14 @@ export default function RootLayout({
           background:
             "linear-gradient(180deg, rgba(12, 80, 66, 0.77) 0%, rgba(3, 18, 15, 0.77) 100%)",
           margin: 0,
-          color: "white", // Optional
+          color: "white",
         }}
       >
         <div className=" ">
           <Navbar />
         </div>
         {children}
+        <FooterComponent />
       </body>
     </html>
   );

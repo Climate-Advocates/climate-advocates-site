@@ -1,16 +1,37 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import logo from "../public/images/Logo.png";
 
 export default function Navbar() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
-    <nav className="bg-green-950 bg-opacity-70 p-4 rounded-b-lg shadow-lg h-20 flex justify-between items-center fixed top-0 w-full z-50 px-6">
+    <nav
+      className={`${
+        isScrolled ? "bg-green-950 bg-opacity-70" : "bg-green-950 "
+      } p-4 rounded-b-lg shadow-lg h-20 flex justify-between items-center fixed top-0 w-full z-50 px-6 transition duration-300`}
+    >
       {/* Logo */}
       <div className="flex items-center px-6">
         <Image

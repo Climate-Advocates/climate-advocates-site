@@ -1,6 +1,9 @@
 import BackgroundVideo from "./Components/BackgorundVideo";
 import Card from "./Components/CardCarausal";
-import VideoCardSet from "./Components/VIdeoCardSet";
+import VCard2 from "./Components/videoCards/vCard2";
+import VCard3 from "./Components/videoCards/vCard3";
+import VCard4 from "./Components/videoCards/vCard4";
+import VideoCardSet from "./Components/videoCards/VIdeoCardSet";
 import "./globals.css";
 import BackgroundImage from "./public/images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg";
 
@@ -17,19 +20,21 @@ export default function Home() {
           backgroundImage: `url(${BackgroundImage.src})`,
         }}
       >
-        <div className="relative top-0 left-0 w-screen h-full bg-black/80 flex items-center justify-center">
+        <div className="relative top-0 left-0 w-screen h-full bg-black/70 flex items-center justify-center py-6">
           <div className="flex flex-col items-center w-10/12 h-3/4 space-y-6 px-6">
             <h1 className="text-4xl font-bold mb-6 pt-16">
               Featured Articles and Posts
             </h1>
-            <div className=" gap-20 bg-green-950 bg-opacity-70 h-1/2 rounded-3xl w-full px-8 py-6 text-center flex ">
+            <div className=" gap-8  bg-opacity-70 h-1/2 rounded-3xl w-auto px-2 py-12 text-center flex flex-wrap justify-center">
               <VideoCardSet />
-              <VideoCardSet />
+              <VCard2 />
+              <VCard3 />
+              <VCard4 />
             </div>
 
-            <div className="w-dvw ">
-              {/* card set to show rececnt articles */}={" "}
-              <div className="flex space-x-4 overflow-x-auto">
+            <div className="w-dvw mb py-4 px-12 ">
+              {/* card set to show rececnt articles */}{" "}
+              <div className="flex space-x-4 overflow-x-auto scrollbar-hide">
                 <Card
                   imageSrc=""
                   title="Fire Up Your Motivation"

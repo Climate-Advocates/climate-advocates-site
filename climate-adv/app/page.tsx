@@ -1,6 +1,8 @@
 import BackgroundVideo from "./Components/BackgorundVideo";
 import Card from "./Components/CardCarausal";
 import VCard2 from "./Components/videoCards/vCard2";
+import VCard3 from "./Components/videoCards/vCard3";
+import VCard4 from "./Components/videoCards/vCard4";
 import VideoCardSet from "./Components/VIdeoCardSet";
 import "./globals.css";
 import BackgroundImage from "./public/images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg";
@@ -26,8 +28,8 @@ export default function Home() {
             <div className=" gap-8  bg-opacity-70 h-1/2 rounded-3xl w-auto px-2 py-12 text-center flex flex-wrap justify-center">
               <VideoCardSet />
               <VCard2 />
-              <VideoCardSet />
-              <VideoCardSet />
+              <VCard3 />
+              <VCard4 />
             </div>
 
             <div className="w-dvw mb py-4 ">

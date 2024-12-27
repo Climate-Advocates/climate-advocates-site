@@ -2,13 +2,13 @@ import { Card, CardHeader, CardFooter, Image, Button } from "@nextui-org/react";
 
 export default function VCard2() {
   return (
-    <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-5/12 h-2/4 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-5/12 h-2/4 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg  min-w-[450px]">
       <Card
         isFooterBlurred
         className="w-full h-[350px] col-span-12 sm:col-span-7"
       >
         {/* Header */}
-        <CardHeader className="absolute z-10  flex-col items-start bg-gradient-to-b from-black/70 to-transparent p-2 rounded">
+        <CardHeader className="absolute z-10  flex-col items-start bg-gradient-to-b from-black/90 to-black/30 p-2 rounded">
           <p className="text-xs text-white/70 uppercase font-semibold tracking-wide">
             Discussion about Decarbanization P-I{" "}
           </p>
@@ -36,7 +36,7 @@ export default function VCard2() {
             />
             <div className="flex flex-col">
               <p className="text-sm text-white text-left">
-                Discover effective waste management practices for Sri Lanka.
+                Discussion about Decarbanization Part I.
               </p>
             </div>
           </div>

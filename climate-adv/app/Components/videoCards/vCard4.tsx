@@ -2,7 +2,7 @@ import { Card, CardHeader, CardFooter, Image, Button } from "@nextui-org/react";
 
 export default function VCard4() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-5/12 h-2/4 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg  min-w-[450px]">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 w-5/12 h-2/4 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg  min-w-[300px]">
       <Card
         isFooterBlurred
         className="w-full h-[350px] col-span-12 sm:col-span-7"

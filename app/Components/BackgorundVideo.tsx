@@ -7,7 +7,7 @@ export default function BackgroundVideo() {
         title="YouTube background video"
         allow="autoplay; fullscreen"
         style={{ border: 0 }}
-        className="absolute top-0 left-0 w-[calc(100vw+120px)] h-[calc(100vh+120px)] -translate-x-[50px] -translate-y-[50px] z-0"
+        className="absolute top-0 left-0 w-[calc(100vw+100px)] h-[calc(100vh+200px)] -translate-x-[50px] -translate-y-[50px] z-0"
       ></iframe>
 
       {/* Overlay Content */}

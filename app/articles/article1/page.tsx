@@ -22,16 +22,7 @@ export default function Article1() {
 
       {/* Content Wrapper */}
       <div className="relative z-10">
-        {/* Image Strip */}
-        <div className="w-88 h-48 relative">
-          <Image
-            src={article1}
-            alt="Climate Crisis: Act Now to End Fossil Fuel Madness"
-            layout="fill"
-            objectFit="cover"
-            priority
-          />
-        </div>
+    
 
       {/* Article Content */}
       <div className="px-8 md:px-20 lg:px-32 py-8">

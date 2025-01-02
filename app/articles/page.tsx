@@ -13,13 +13,13 @@
 import Card from "../Components/CardCarausal";
 import BackgroundImage from "./public/images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg";
 
-import article1 from "../public/images/articles/article1.png";
-import article2 from "../public/images/articles/article2.png";
+import article1 from "../public/images/articles/article1.jpg";
+import article2 from "../public/images/articles/article2.jpg";
 import article3 from "../public/images/articles/article3.jpg";
 import article4 from "../public/images/articles/article4.jpg";
 import article5 from "../public/images/articles/article5.jpg";
 import article6 from "../public/images/articles/article6.jpg";
-import article7 from "../public/images/articles/article7.png";
+import article7 from "../public/images/articles/article7.jpg";
 
 export default function Articles() {
   return (

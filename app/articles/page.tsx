@@ -11,7 +11,7 @@
 // }
 
 import Card from "../Components/CardCarausal";
-import BackgroundImage from "./public/images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg";
+import backgroundImage from "../public/images/article-bg.jpg";
 
 import article1 from "../public/images/articles/article1.jpg";
 import article2 from "../public/images/articles/article2.jpg";
@@ -23,7 +23,13 @@ import article7 from "../public/images/articles/article7.jpg";
 
 export default function Articles() {
   return (
-    <div className="py-32">
+    <div className="py-32"
+      style={{
+        backgroundImage: `url(${backgroundImage.src})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <h1 className="text-center text-3xl font-bold">Articles</h1>
       <p className="text-center mt-4">
         Explore our latest articles and insights on sustainability and climate advocacy.

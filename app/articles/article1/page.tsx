@@ -1,5 +1,3 @@
-import Image from "next/image";
-import article1 from "../../public/images/articles/article1.jpg";
 import backgroundImage from "../../public/images/article-bg.jpg";
 
 export default function Article1() {

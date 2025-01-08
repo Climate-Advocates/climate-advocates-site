@@ -11,9 +11,6 @@ import article1 from "./public/images/articles/article1.jpg";
 import article2 from "./public/images/articles/article2.jpg";
 import article3 from "./public/images/articles/article3.jpg";
 import article4 from "./public/images/articles/article4.jpg";
-import article5 from "./public/images/articles/article5.jpg";
-import article6 from "./public/images/articles/article6.jpg";
-import article7 from "./public/images/articles/article7.jpg";
 
 export default function Home() {
   return (
@@ -33,11 +30,9 @@ export default function Home() {
             <h1 className="text-4xl font-bold mb-6 pt-16">
               Featured Articles and Posts
             </h1>
-            <div className=" gap-8  bg-opacity-70 h-1/2 rounded-3xl w-auto px-2 py-12 text-center flex flex-wrap justify-center">
+            <div className="gap-8  bg-opacity-70 h-1/2 rounded-3xl w-auto px-2 py-12 text-center flex flex-wrap justify-center">
               <VideoCardSet />
-              <VCard2 />
-              <VCard3 />
-              <VCard4 />
+              <VCard2 />            
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-12 mt-10">

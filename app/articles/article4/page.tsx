@@ -3,7 +3,7 @@ import backgroundImage from "../../public/images/article-bg.jpg";
 export default function Article4() {
   return (
     <div 
-      className="pt-20"
+      className="pt-20 relative"
       style={{
         backgroundImage: `url(${backgroundImage.src})`,
         backgroundSize: "cover",
@@ -23,16 +23,17 @@ export default function Article4() {
     
 
       {/* Article Content */}
-      <div className="px-8 md:px-20 lg:px-32 py-8">
-        {/* Title and Author */}
-        <h1 className="text-4xl font-bold text-center mb-4">
-            Evolution of Environmental movements and it’s impact climate in Sri Lanka
+      <div className="px-4 sm:px-8 md:px-16 lg:px-32 py-8">
+      {/* Title and Author */}
+      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-4 text-black">
+      Evolution of Environmental movements and it’s impact climate in Sri Lanka
         </h1>
-        <p className="text-center italic mb-8">By Isora Liyanaarachchi</p>
+        <p className="text-center italic mb-8 text-black text-sm sm:text-base">
+        By Isora Liyanaarachchi</p>
 
         {/* Article Content */}
-        <div className="space-y-6 text-lg leading-relaxed mx-80 text-justify">
-          <p>
+        <div className="space-y-6 text-base sm:text-lg leading-relaxed mx-auto max-w-4xl text-justify">
+        <p>
                     Known forits abundant biodiversity and strong ties
             to the natural world, Sri Lanka has a long history of
             environmental responsibility. National climate

@@ -3,7 +3,7 @@ import backgroundImage from "../../public/images/article-bg.jpg";
 export default function Article6() {
   return (
     <div 
-      className="pt-20"
+      className="pt-20 relative"
       style={{
         backgroundImage: `url(${backgroundImage.src})`,
         backgroundSize: "cover",
@@ -23,16 +23,17 @@ export default function Article6() {
     
 
       {/* Article Content */}
-      <div className="px-8 md:px-20 lg:px-32 py-8">
-        {/* Title and Author */}
-        <h1 className="text-4xl font-bold text-center mb-4">
-            Internship Diaries: A Sri lanka’s internship experiance on environmental practice in Norway
+      <div className="px-4 sm:px-8 md:px-16 lg:px-32 py-8">
+      {/* Title and Author */}
+      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-4 text-black">
+      Internship Diaries: A Sri lanka’s internship experiance on environmental practice in Norway
         </h1>
-        <p className="text-center italic mb-8">By Banuka Nimsith Wickramasinghe</p>
+        <p className="text-center italic mb-8 text-black text-sm sm:text-base">
+        By Banuka Nimsith Wickramasinghe</p>
 
         {/* Article Content */}
-        <div className="space-y-6 text-lg leading-relaxed mx-80 text-justify">
-          <p>
+        <div className="space-y-6 text-base sm:text-lg leading-relaxed mx-auto max-w-4xl text-justify">
+        <p>
                     During my internship at NORCAP, I had the unique opportunity to work on
             a variety of environmental projects and gain insights into Norway’s
             advanced environmental strategies. From making country briefs and

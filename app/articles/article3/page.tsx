@@ -3,7 +3,7 @@ import backgroundImage from "../../public/images/article-bg.jpg";
 export default function Article3() {
   return (
     <div 
-      className="pt-20"
+      className="pt-20 relative"
       style={{
         backgroundImage: `url(${backgroundImage.src})`,
         backgroundSize: "cover",
@@ -23,16 +23,18 @@ export default function Article3() {
     
 
       {/* Article Content */}
-      <div className="px-8 md:px-20 lg:px-32 py-8">
-        {/* Title and Author */}
-        <h1 className="text-4xl font-bold text-center mb-4">
-          What International Climate Justice Means for Sri Lanka
+      <div className="px-4 sm:px-8 md:px-16 lg:px-32 py-8">
+      {/* Title and Author */}
+      <h1 className="text-3xl sm:text-4xl font-bold text-center mb-4 text-black">
+      What International Climate Justice Means for Sri Lanka
         </h1>
-        <p className="text-center italic mb-8">By Sanjali De Silva</p>
+        <p className="text-center italic mb-8 text-black text-sm sm:text-base">
+          By Sanjali De Silva
+        </p>
 
         {/* Article Content */}
-        <div className="space-y-6 text-lg leading-relaxed mx-80 text-justify">
-          <p>
+        <div className="space-y-6 text-base sm:text-lg leading-relaxed mx-auto max-w-4xl text-justify">
+        <p>
           Earlier this month I visited my family in Sri Lanka and found that everything has changed since my last visit almost four years ago. 
           As I embraced my family, I felt a palpable fatigue from the pressures of the pandemic, political unrest, and geopolitical turmoil bubbling 
           beneath the surface.

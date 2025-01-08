@@ -3,7 +3,7 @@ import backgroundImage from "../../public/images/article-bg.jpg";
 export default function Article2() {
   return (
     <div 
-      className="pt-20"
+      className="pt-20 relative"
       style={{
         backgroundImage: `url(${backgroundImage.src})`,
         backgroundSize: "cover",
@@ -23,16 +23,17 @@ export default function Article2() {
     
 
       {/* Article Content */}
-      <div className="px-8 md:px-20 lg:px-32 py-8">
-        {/* Title and Author */}
-        <h1 className="text-4xl font-bold text-center mb-4">
+      <div className="px-4 sm:px-8 md:px-16 lg:px-32 py-8">
+      {/* Title and Author */}
+        <h1 className="text-3xl sm:text-4xl font-bold text-center mb-4 text-black">
           Pakistan Floods: One Year On, Lessons in Climate Loss and Damage
         </h1>
-        <p className="text-center italic mb-8">By Rachel Cleetus</p>
-
+        <p className="text-center italic mb-8 text-black text-sm sm:text-base">
+            By Rachel Cleetus
+          </p>
         {/* Article Content */}
-        <div className="space-y-6 text-lg leading-relaxed mx-80 text-justify">
-          <p>
+        <div className="space-y-6 text-base sm:text-lg leading-relaxed mx-auto max-w-4xl text-justify">
+        <p>
           Last summer, from June through August, Pakistan endured extended intense rainfall—exacerbated by climate change—that triggered devastating 
           and unprecedented months-long flooding across the country. The floods killed more than 1700 people, a third of them children; affected 33 
           million people and displaced 8 million; destroyed more than 2.2 million homes and 4.4 million acres of crops; and cost $40 billion. The people 

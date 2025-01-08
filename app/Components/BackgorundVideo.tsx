@@ -1,9 +1,11 @@
+"use client";
+
 export default function BackgroundVideo() {
   return (
-    <div className="relative top-0 left-0  h-screen overflow-hidden">
-      {/* Adjusted YouTube Video */}
+    <div className="relative top-0 left-0 h-screen overflow-hidden">
+      {/* YouTube Video with sound enabled */}
       <iframe
-        src="https://www.youtube.com/embed/wyAfQBSOeFg?autoplay=1&mute=1&loop=1&playlist=wyAfQBSOeFg&controls=0&modestbranding=1&rel=0"
+        src="https://www.youtube.com/embed/wyAfQBSOeFg?autoplay=1&loop=1&playlist=wyAfQBSOeFg&controls=0&modestbranding=1&rel=0&mute=0"
         title="YouTube background video"
         allow="autoplay; fullscreen"
         style={{ border: 0 }}

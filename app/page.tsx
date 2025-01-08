@@ -7,6 +7,14 @@ import VideoCardSet from "./Components/videoCards/VIdeoCardSet";
 import "./globals.css";
 import BackgroundImage from "./public/images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg";
 
+import article1 from "./public/images/articles/article1.jpg";
+import article2 from "./public/images/articles/article2.jpg";
+import article3 from "./public/images/articles/article3.jpg";
+import article4 from "./public/images/articles/article4.jpg";
+import article5 from "./public/images/articles/article5.jpg";
+import article6 from "./public/images/articles/article6.jpg";
+import article7 from "./public/images/articles/article7.jpg";
+
 export default function Home() {
   return (
     <>
@@ -32,53 +40,38 @@ export default function Home() {
               <VCard4 />
             </div>
 
-            <div className="w-dvw mb py-4 px-12 ">
-              {/* card set to show rececnt articles */}{" "}
-              <div className="flex space-x-4 overflow-x-auto scrollbar-hide">
-                <Card
-                  imageSrc=""
-                  title="Fire Up Your Motivation"
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sapien. Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu."
-                  author="Kyle Patterson"
-                  articleLink="#"
-                />
-                <Card
-                  imageSrc=""
-                  title="Fire Up Your Motivation"
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sapien. Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu."
-                  author="Kyle Patterson"
-                  articleLink="#"
-                />
-                <Card
-                  imageSrc=""
-                  title="Fire Up Your Motivation"
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sapien. Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu."
-                  author="Kyle Patterson"
-                  articleLink="#"
-                />
-                <Card
-                  imageSrc=""
-                  title="Fire Up Your Motivation"
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sapien. Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu."
-                  author="Kyle Patterson"
-                  articleLink="#"
-                />{" "}
-                <Card
-                  imageSrc=""
-                  title="Fire Up Your Motivation"
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sapien. Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu."
-                  author="Kyle Patterson"
-                  articleLink="#"
-                />{" "}
-                <Card
-                  imageSrc=""
-                  title="Fire Up Your Motivation"
-                  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in sapien. Nullam dapibus fermentum ipsum. Class aptent taciti sociosqu."
-                  author="Kyle Patterson"
-                  articleLink="#"
-                />
-              </div>
-            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-12 mt-10">
+        {/* Cards for articles */}
+        <Card
+          imageSrc={article1}
+          title="Climate Crisis: Act Now to End Fossil Fuel Madness"
+          description="The unprecedented spate of climate-driven catastrophes unfolding around the world right now is just terrifying. Extreme heat. Record-breaking floods..."
+          author="Rachel Cleetus"
+          articleLink="/articles/article1"
+        />
+        <Card
+          imageSrc={article2}
+          title="Pakistan Floods: One Year On, Lessons in Climate Loss and Damage"
+          description="Last summer, from June through August, Pakistan endured extended intense rainfall—exacerbated by climate change—that triggered devastating and unprecedented..."
+          author="Rachel Cleetus"
+          articleLink="/articles/article2"
+        />
+        <Card
+          imageSrc={article3}
+          title="What International Climate Justice Means for Sri Lanka"
+          description="Earlier this month I visited my family in Sri Lanka and found that everything has changed since my last visit almost four years ago. As I embraced my family, I felt a palpable fatigue..."
+          author="Sanjali De Silva"
+          articleLink="/articles/article3"
+        />
+        <Card
+          imageSrc={article4}
+          title="Evolution of Environmental movements and it’s impact climate in Sri Lanka"
+          description="Known forits abundant biodiversity and strong ties to the natural world, Sri Lanka has a long history of environmental responsibility..."
+          author="Isora Liyanaarachchi"
+          articleLink="/articles/article4"
+        />
+      
+      </div>
             <br />
             <br />
             {/* Grid of Smaller Cards */}

@@ -125,7 +125,7 @@ export default function About() {
 
       {/* Project Owner Section */}
       <div className="mt-10 px-10">
-        <Link href={projectOwner.linkedin} passHref>
+        <Link href={projectOwner.linkedin} passHref target="_blank">
           <div
             className="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-lg p-12 cursor-pointer"
           >
@@ -142,6 +142,8 @@ export default function About() {
               </h2>
               <p className="text-gray-500">{projectOwner.role}</p>
               <p className="text-gray-700 mt-4">{projectOwner.description}</p>
+              <p className="text-blue-400 ">View LinkedIn →</p>
+
             </div>
           </div>
         </Link>
@@ -169,6 +171,8 @@ export default function About() {
                     {member.name}
                   </h3>
                   <p className="text-gray-500">{member.role}</p>
+                  <p className="text-blue-400 ">View LinkedIn →</p>
+
                 </div>
               </Link>
             ))}

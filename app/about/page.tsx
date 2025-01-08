@@ -46,16 +46,16 @@ export default function About() {
 
   const wasteManagement = [
     {
-      name: "Kavinya Silva",
+      name: "Kavinya De Silva",
       role: "Project Coordinator",
       image: Kavinya,
       linkedin: "https://www.linkedin.com/in/kavinya-de-silva-647569286/",
     },
     {
-      name: "Suban Wickramasinghe",
+      name: "Suban kokilakumar",
       role: "Project Coordinator",
       image: Suban,
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/suban-kokilakumar-829778288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     {
       name: "Sanudi Manjusri",
@@ -67,37 +67,37 @@ export default function About() {
 
   const videoEditing = [
     {
-      name: "Ridmi Jayawardana",
+      name: "Ridmi Buddhuma",
       role: "Video Editor",
       image: Ridmi,
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/ridmi-buddhima-8b833321a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     {
-      name: "Vimash Bandara",
+      name: "Vimash Perera",
       role: "Video Editor",
       image: Vimash,
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/vimash-perera?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
   ];
 
   const videoRecording = [
     {
-      name: "Sanduni Gamage",
+      name: "Sanduni Umayangi",
       role: "Videographer",
       image: Sanduni,
-      linkedin: "https://www.linkedin.com/in/sanduni-gamage-6746a6197/",
+      linkedin: "https://www.linkedin.com/in/sanduni-umayangi-094696214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     {
-      name: "Lakshitha Perera",
+      name: "Lakshitha Vithanaarachchi",
       role: "Videographer",
       image: Lakshitha,
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/lakshitha-vithanaarachchi-791030301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
     {
-      name: "Namasha Fernando",
+      name: "Namasha Wijesinghe",
       role: "Videographer",
       image: Namasha,
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/namasha-wijesinghe-b84935336?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     },
   ];
 

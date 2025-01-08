@@ -2,14 +2,14 @@ import backgroundImage from "../../public/images/article-bg.jpg";
 
 export default function Article1() {
   return (
-    <div 
-      className="pt-20"
+    <div
+      className="pt-20 relative"
       style={{
         backgroundImage: `url(${backgroundImage.src})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
-      >
+    >
       {/* Translucent Overlay with Fade */}
       <div
         className="absolute inset-0 z-0"
@@ -20,19 +20,21 @@ export default function Article1() {
 
       {/* Content Wrapper */}
       <div className="relative z-10">
-    
 
-      {/* Article Content */}
-      <div className="px-8 md:px-20 lg:px-32 py-8">
-        {/* Title and Author */}
-        <h1 className="text-4xl font-bold text-center mb-4 text-black">
-          Climate Crisis: Act Now to End Fossil Fuel Madness
-        </h1>
-        <p className="text-center italic mb-8 text-black">By Rachel Cleetus</p>
-
+        
         {/* Article Content */}
-        <div className="space-y-6 text-lg leading-relaxed mx-80 text-justify">
-          <p>
+        <div className="px-4 sm:px-8 md:px-16 lg:px-32 py-8">
+          {/* Title and Author */}
+          <h1 className="text-3xl sm:text-4xl font-bold text-center mb-4 text-black">
+            Climate Crisis: Act Now to End Fossil Fuel Madness
+          </h1>
+          <p className="text-center italic mb-8 text-black text-sm sm:text-base">
+            By Rachel Cleetus
+          </p>
+
+          {/* Article Content */}
+          <div className="space-y-6 text-base sm:text-lg leading-relaxed mx-auto max-w-4xl text-justify">
+            <p>
           The unprecedented spate of climate-driven catastrophes unfolding around the world right now is just terrifying. 
           Extreme heat. Record-breaking floods. Cataclysmic wildfires. It’s understandable to sometimes feel overwhelmed and unsure what to do.
           Take a beat if you need to, but please don’t tune out or feel helpless! Because what we choose to do next will make all the difference in how the 

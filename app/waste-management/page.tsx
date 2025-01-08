@@ -1,4 +1,4 @@
-import Waste from "../public/images/wasteManagement.webp";
+import Waste from "../public/images/wasteManagement.png";
 import Image from "next/image";
 
 export default function WasteManagement() {

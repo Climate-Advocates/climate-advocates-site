@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import PropTypes from 'prop-types';
 import Image from "next/image";
 
 export default function Slider({ images }) {
@@ -42,5 +43,9 @@ export default function Slider({ images }) {
         ❯
       </button>
     </div>
-  );
-}
+)};
+
+Slider.propTypes = {
+  images: PropTypes.arrayOf(PropTypes.string).isRequired,
+};
+

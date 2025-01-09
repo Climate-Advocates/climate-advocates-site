@@ -49,7 +49,7 @@ export default function Home() {
         }}
       >
         <div className="relative top-0 left-0 w-screen h-full bg-black/70 flex items-center justify-center py-6">
-          <div className="flex flex-col items-center w-10/12 h-3/4 space-y-6 px-6">
+          <div className="flex flex-col items-center h-3/4 space-y-6 px-6">
             {/* Image Slider */}
             <div className="relative w-full max-w-4xl h-96 flex items-center justify-center">
               <button

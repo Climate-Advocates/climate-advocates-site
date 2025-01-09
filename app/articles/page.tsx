@@ -18,8 +18,8 @@ export default function Articles() {
         backgroundPosition: "center",
       }}
     >
-      <h1 className="text-center text-3xl font-bold">Articles</h1>
-      <p className="text-center mt-4">
+      <h1 className="text-center text-3xl text-black font-bold">Articles</h1>
+      <p className="text-center text-black mt-4">
         Explore our latest articles and insights on sustainability and climate advocacy.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-12 mt-10">

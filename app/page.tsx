@@ -1,8 +1,6 @@
 import BackgroundVideo from "./Components/BackgorundVideo";
 import Card from "./Components/CardCarausal";
 import VCard2 from "./Components/videoCards/vCard2";
-import VCard3 from "./Components/videoCards/vCard3";
-import VCard4 from "./Components/videoCards/vCard4";
 import VideoCardSet from "./Components/videoCards/VIdeoCardSet";
 import "./globals.css";
 import BackgroundImage from "./public/images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg";

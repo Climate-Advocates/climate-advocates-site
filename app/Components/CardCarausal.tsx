@@ -1,7 +1,7 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface CardProps {
-  imageSrc: string;
+  imageSrc: string | StaticImageData; // Allow both string and StaticImageData
   title: string;
   description: string;
   author: string;
@@ -20,7 +20,7 @@ const Card: React.FC<CardProps> = ({
       {/* Image */}
       <div className="overflow-hidden rounded-xl mb-4">
         <Image
-          src={imageSrc}
+          src={typeof imageSrc === "string" ? imageSrc : imageSrc.src} // Handle both types
           alt={title}
           className="w-full h-48 object-cover"
           width={350}

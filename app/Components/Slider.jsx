@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Slider({ images }) {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -16,11 +17,13 @@ export default function Slider({ images }) {
     <div className="relative w-full max-w-3xl mx-auto overflow-hidden">
       {/* Image */}
       <div className="w-full h-64 flex items-center justify-center">
-        <img
-          src={images[currentIndex]}
-          alt={`Slide ${currentIndex}`}
-          className="w-full h-full object-cover rounded-lg"
-        />
+      <Image
+        src={images[currentIndex]}
+        alt={`Slide ${currentIndex}`}
+        width={1920} // Replace with the actual width of your image
+        height={1080} // Replace with the actual height of your image
+        className="w-full h-full object-cover rounded-lg"
+      />
       </div>
 
       {/* Left Arrow */}

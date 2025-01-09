@@ -22,7 +22,7 @@ export default function WasteManagement() {
 
         <p className="text-center mt-4 mx-16">
         
-🌍 At Climate Advocates, we're committed to making a positive impact on the environment. Our Waste Management Project is currently in the planning phase, and we can’t wait to share it with you!
+🌍 At Climate Advocates, we&apos;re committed to making a positive impact on the environment. Our Waste Management Project is currently in the planning phase, and we can’t wait to share it with you!
 <br/>
 📢 Stay tuned for updates as we embark on this important journey to create sustainable solutions for managing waste and promoting eco-friendly practices.
 <br/>

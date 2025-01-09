@@ -49,9 +49,7 @@ export default function Home() {
       >
         <div className="relative top-0 left-0 w-screen h-full bg-black/70 flex items-center justify-center py-6">
           <div className="flex flex-col items-center w-10/12 h-3/4 space-y-6 px-6">
-            <h1 className="text-4xl font-bold mb-6 pt-16">
-              Featured Articles and Posts
-            </h1>
+            
 
             {/* Image Slider */}
             <div className="relative w-full max-w-4xl h-96 flex items-center justify-center">
@@ -73,7 +71,9 @@ export default function Home() {
                 ▶
               </button>
             </div>
-
+            <h1 className="text-4xl font-bold mb-6 pt-16">
+              Featured Articles and Posts
+            </h1>
             <div className="gap-8 bg-opacity-70 h-1/2 rounded-3xl w-auto px-2 py-12 text-center flex flex-wrap justify-center">
               <VideoCardSet />
               <VCard2 />

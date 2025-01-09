@@ -29,11 +29,11 @@ export default function Navbar() {
   return (
     <nav
       className={`${
-        isScrolled ? "bg-green-950 bg-opacity-70" : "bg-green-950 "
-      } p-4 rounded-b-lg shadow-lg h-20 flex justify-between items-center fixed top-0 w-full z-50 px-6 transition duration-300`}
+        isScrolled ? "bg-black bg-opacity-70" : "bg-black"
+      } p-4 shadow-lg h-20 flex justify-between items-center fixed top-0 w-full z-50 px-6 transition duration-300`}
     >
       {/* Logo */}
-      <div className="flex items-center px-6">
+      <div className="flex items-center px-6 ">
         <Image
           src={logo}
           alt="Logo"
@@ -109,7 +109,7 @@ export default function Navbar() {
 
       {/* Mobile Navigation */}
       {menuOpen && (
-        <ul className="absolute top-20 left-0 bg-green-950 w-full flex flex-col gap-5 p-5 text-lg md:hidden shadow-lg">
+        <ul className="absolute top-20 left-0 bg-black w-full flex flex-col gap-5 p-5 text-lg md:hidden shadow-lg">
           {[
             { href: "/", label: "Home" },
             { href: "/discussions", label: "Discussions" },

@@ -38,11 +38,11 @@ export default function Article4() {
             to the natural world, Sri Lanka has a long history of
             environmental responsibility. National climate
             change strategies and conservation efforts have
-            been influenced by the nation's expanding
+            been influenced by the nation&apos;s expanding
             environmental movements overtheyears. A unique
             tale of resiliency and adaptation has been produced
             by the fusion of ancient customs with modern
-            activism, highlighting both Sri Lanka's cultural
+            activism, highlighting both Sri Lanka&apos;s cultural
             heritage and the pressing problems brought on by
             climate change.
           </p>
@@ -50,7 +50,7 @@ export default function Article4() {
                     Sri Lanka has a long history of environmental
             consciousness that is ingrained in its customs and
             culture. The advanced water management systems of
-            thenation's early civilizations demonstrated a
+            thenation&apos;s early civilizations demonstrated a
             profound awareness of ecological harmony. An
             engineering marvel of sustainability, the ancient tank
             cascade system showed how to use natural resources
@@ -59,8 +59,8 @@ export default function Article4() {
             while balancing with the ecosystems around them.
             Trees and sacred groves were essential to religious
             and social customs, demonstrating an early
-            recognition of humanity's dependence on the
-            environment. Nature was admiredDuring the 1960s and 1970s, Sri Lanka's modern
+            recognition of humanity&apos;s dependence on the
+            environment. Nature was admiredDuring the 1960s and 1970s, Sri Lanka&apos;s modern
             environmental movement gained momentum in
             tandem with a global upsurge in ecological
             awareness. Local activism was spurred by landmark
@@ -174,8 +174,8 @@ export default function Article4() {
           <p>
                     Environmental movements in Sri Lanka demonstrate
             a potent fusion of traditional wisdom and
-            contemporary activism, emphasizing the nation's
-            enduring connection to the natural world. Theisland's rich cultural heritage and environment can be
+            contemporary activism, emphasizing the nation&apos;s
+            enduring connection to the natural world. Theisland&apos;s rich cultural heritage and environment can be
             preserved for future generations with a collaborative,
             multifaceted strategy that involves community
             engagement, government support, and international

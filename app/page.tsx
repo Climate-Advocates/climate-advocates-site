@@ -71,11 +71,16 @@ const Slider = ({ slides }) => {
         </button>
 
         {/* Image */}
-        <img
+        <Image
           src={slides[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
+          width={600}          // Adjust width
+          height={400}         // Adjust height
           className="w-full h-auto rounded-lg"
+          objectFit="cover"
+          priority             // Prioritize loading this image
         />
+
 
         {/* Next Button */}
         <button
@@ -119,7 +124,7 @@ export default function Home() {
             <div className="mx-16"><Slider slides={slide2} /></div>
           </div>
 
-          <h1 className="text-4xl font-bold mb-6 pt-16">
+          <h1 className="text-4xl font-bold mb-6 pt-16 text-center w-full">
             Featured Articles and Posts
           </h1>
           <div className="gap-8 bg-opacity-70 h-1/2 rounded-3xl w-auto px-2 py-12 text-center flex flex-wrap justify-center">

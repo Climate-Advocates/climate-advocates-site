@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
 import BackgroundVideo from "./Components/BackgorundVideo";
 import Card from "./Components/CardCarausal";
 import VCard2 from "./Components/videoCards/vCard2";
@@ -14,7 +13,6 @@ import article2 from "./public/images/articles/article2.jpg";
 import article3 from "./public/images/articles/article3.jpg";
 import article4 from "./public/images/articles/article4.jpg";
 
-// Slide arrays
 const slide1 = [
   "/images/Slide1/1.png",
   "/images/Slide1/2.png",
@@ -37,12 +35,7 @@ const slide2 = [
   "/images/Slide2/11.png",
 ];
 
-// Slider Component
-interface SliderProps {
-  slides: string[];  // Type for slides prop
-}
-
-const Slider: React.FC<SliderProps> = ({ slides }) => {
+const Slider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
@@ -103,7 +96,7 @@ const Slider: React.FC<SliderProps> = ({ slides }) => {
     </div>
   );
 };
-
+ 
 export default function Home() {
   return (
     <>

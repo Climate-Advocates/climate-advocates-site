@@ -42,9 +42,9 @@ export default function Article9() {
           </p>
 
           <p>
-          Climate change has led to inconsistent rainfall patterns, with an increased frequency of droughts, floods, and unseasonal rains. This has disrupted the natural rhythms of planting and harvesting, particularly during periods of severe drought. For instance, Sri Lanka faced its worst drought during 2016 and 2017, with rice production dropping nearly 50%. As rice is both the country's staple food and its most vital crop, this sharp decline in yield had profound effects on the nation's food security and economy (Jayasinghe, 2023).  During such droughts, farmers often struggle with water shortages for irrigation, further reducing crop yields and leading to substantial economic losses. </p>
+          Climate change has led to inconsistent rainfall patterns, with an increased frequency of droughts, floods, and unseasonal rains. This has disrupted the natural rhythms of planting and harvesting, particularly during periods of severe drought. For instance, Sri Lanka faced its worst drought during 2016 and 2017, with rice production dropping nearly 50%. As rice is both the country&apos;s staple food and its most vital crop, this sharp decline in yield had profound effects on the nation&apos;s food security and economy (Jayasinghe, 2023).  During such droughts, farmers often struggle with water shortages for irrigation, further reducing crop yields and leading to substantial economic losses. </p>
           <p>
-          While droughts pose a significant threat, excessive rainfall and floods also play a critical role in disrupting agriculture. The floods and landslides that struck Sri Lanka in May 2016 caused widespread damage to assets and reduced agricultural, livestock, and fishery output. With total losses estimated at LKR 1,901.75 million, these disasters illustrate the devastating impact of  extreme weather events on Sri Lanka's agriculture ( Ministry of Disaster Management , 2016).Additionally, unpredictable rainfall has led to soil erosion, washing away important topsoil and draining the nutrients needed for crops, making it harder for farmers to grow food.
+          While droughts pose a significant threat, excessive rainfall and floods also play a critical role in disrupting agriculture. The floods and landslides that struck Sri Lanka in May 2016 caused widespread damage to assets and reduced agricultural, livestock, and fishery output. With total losses estimated at LKR 1,901.75 million, these disasters illustrate the devastating impact of  extreme weather events on Sri Lanka&apos;s agriculture ( Ministry of Disaster Management , 2016).Additionally, unpredictable rainfall has led to soil erosion, washing away important topsoil and draining the nutrients needed for crops, making it harder for farmers to grow food.
           </p>
           <p>
           <b>Rising Temperatures and Increased Pest and Disease Patterns</b></p>
@@ -55,13 +55,13 @@ export default function Article9() {
           <b>Impact on Livestock and Fisheries</b>
           </p>
           <p>
-          Warming ocean temperatures and rising sea levels are threatening Sri Lanka's fisheries. Changes in the climate have disrupted marine ecosystems, leading to fewer fish and forcing fishermen to travel farther for their catch. As a result, coastal communities dependent on fishing are facing challenges that impact their income and food security. </p>
+          Warming ocean temperatures and rising sea levels are threatening Sri Lanka&apos;s fisheries. Changes in the climate have disrupted marine ecosystems, leading to fewer fish and forcing fishermen to travel farther for their catch. As a result, coastal communities dependent on fishing are facing challenges that impact their income and food security. </p>
 
           <p>
             <b> Impact on Rural Communities</b>
           </p>
           <p>
-          Climate change impacts not just the environment, but also the livelihoods and well-being of rural communities. Small-scale farmers, who are the foundation of Sri Lanka's agriculture, are the most vulnerable. With lower crop yields, they face financial struggles and growing poverty. As a result, many farmers are forced to abandon their livelihoods or migrate to urban areas in search of work. 
+          Climate change impacts not just the environment, but also the livelihoods and well-being of rural communities. Small-scale farmers, who are the foundation of Sri Lanka&apos;s agriculture, are the most vulnerable. With lower crop yields, they face financial struggles and growing poverty. As a result, many farmers are forced to abandon their livelihoods or migrate to urban areas in search of work. 
           </p>
           <p>
            <b> Impact on Rural Communities</b>
@@ -85,7 +85,7 @@ export default function Article9() {
           Ministry of Disaster Management . (2016, November). Sri Lanka Post-Disaster Needs Assessment May 2016 Floods and Landslides. Retrieved from https://www.preventionweb.net/media/77817/download?startDownload=20250109<br/><br/>
 Central Bank of Sri Lanka. (2024). Retrieved from National Accounts Estimates - Quarter 3, 2024: https://www.cbsl.gov.lk/sites/default/files/cbslweb_documents/statistics/national_accounts_estimates_2024_q3_e.pdf<br/><br/>
 Department of Census and Statistics. (2024). Sri Lanka Labour Force Survey Quarterly Report 1st Quarter - 2024. Retrieved from https://www.statistics.gov.lk/LabourForce/StaticalInformation/QuarterlyReports/1stQuarter2024<br/><br/>
-Jayasinghe, U. (2023). Retrieved from Drought dents Sri Lanka's economic hopes, farmers' livelihood: https://www.reuters.com/world/asia-pacific/drought-dents-sri-lankas-economic-hopes-farmers-livelihood-2023-08-29/#:~:text=During%20the%20last%20El%20Nino,people%20and%20its%20biggest%20crop.<br/><br/>
+Jayasinghe, U. (2023). Retrieved from Drought dents Sri Lanka&apos;s economic hopes, farmers&apos; livelihood: https://www.reuters.com/world/asia-pacific/drought-dents-sri-lankas-economic-hopes-farmers-livelihood-2023-08-29/#:~:text=During%20the%20last%20El%20Nino,people%20and%20its%20biggest%20crop.<br/><br/>
 
 
           </p>

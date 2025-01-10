@@ -70,7 +70,7 @@ export default function Article8() {
             <b> References</b>
           </p>
           <p>
-          Department of Foreign Affairs and Trade. (2014). Indian Ocean tsunami. Retrieved from Australian Government, Department of Foreign Affairs and Trade: <a>https://www.dfat.gov.au/news/news/Pages/indian-ocean-tsunami#:~:text=The%20tsunami%20killed%20more%20than,Lanka's%20annual%20Gross%20Domestic%20Product.</a><br/><br/>
+          Department of Foreign Affairs and Trade. (2014). Indian Ocean tsunami. Retrieved from Australian Government, Department of Foreign Affairs and Trade: <a>https://www.dfat.gov.au/news/news/Pages/indian-ocean-tsunami#:~:text=The%20tsunami%20killed%20more%20than,Lanka&apos;s%20annual%20Gross%20Domestic%20Product.</a><br/><br/>
 Hewawasam V, Matsui K. (2023). Small and Medium-Sized Entrepreneurs’ Perceptions of Flood Loss and Damage in Sri Lanka. Climate.<br/><br/>
 Sajeevani Weerasekara, e. a. (2021). The impacts of climate induced disasters on the economy: Winners and losers in Sri Lanka. Science direct.<br/><br/>
 Walsh B, Hallegatte S. (2019). Socioeconomic Resilience in Sri Lanka: Natural Disaster Poverty and Wellbeing Impact Assessment. World Bank Group. Retrieved from<a> https://documents1.worldbank.org/curated/en/173611568643337991/pdf/Socioeconomic-Resilience-in-Sri-Lanka-Natural-Disaster-Poverty-and-Wellbeing-Impact-Assessment.pdf</a><br/><br/>

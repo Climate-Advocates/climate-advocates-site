@@ -78,11 +78,16 @@ const Slider: React.FC<SliderProps> = ({ slides }) => {
         </button>
 
         {/* Image */}
-        <img
+        <Image
           src={slides[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
+          width={600}          // Adjust width
+          height={400}         // Adjust height
           className="w-full h-auto rounded-lg"
+          objectFit="cover"
+          priority             // Prioritize loading this image
         />
+
 
         {/* Next Button */}
         <button

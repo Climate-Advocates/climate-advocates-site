@@ -8,6 +8,8 @@ import article4 from "../public/images/articles/article4.jpg";
 import article5 from "../public/images/articles/article5.jpg";
 import article6 from "../public/images/articles/article6.jpg";
 import article7 from "../public/images/articles/article7.jpg";
+import article8 from "../public/images/articles/article8.jpg";
+import article9 from "../public/images/articles/article9.jpg";
 
 
 export default function Articles() {
@@ -72,8 +74,22 @@ export default function Articles() {
           imageSrc={article7}
           title="Role of climate change in Sri Lanka’s economic woes"
           description="Growing 1.6% in the third quarter of 2023, Sri Lanka’s economy has experienced a significant shift from the dire economic crisis it faced just a year ago. The crisis led to riots and  the resignation of former..."
-          author="Sandev Ferdinando"
+          author="Don Sandev Ferdinando"
           articleLink="/articles/article7"
+        />
+        <Card
+          imageSrc={article8}
+          title="Assessing the relationship between extreme weather event and economic losses in Sri Lanka"
+          description="Sri Lanka, an island nation in the Indian Ocean, is highly vulnerable to extreme weather events such as floods, cyclones, and droughts. The frequency and intensity of these natural disasters have been increasing in recent decades, raising concerns about their long-term economic implications..."
+          author="Sanduni Umayangi"
+          articleLink="/articles/article8"
+        />
+        <Card
+          imageSrc={article9}
+          title="Analyzing the Impact of Climate Change on Sri Lanka's Agriculture"
+          description="Sri Lanka, a vibrant tropical island in South Asia, has always depended on agriculture as the backbone of its economy. Agriculture has not only sustained the livelihoods of its people but also shaped the culture and identity of the nation for generations. From tea plantations to paddy fields..."
+          author="Namasha Wijesinghe"
+          articleLink="/articles/article9"
         />
       </div>
     </div>

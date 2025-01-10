@@ -9,8 +9,10 @@ import article5 from "../public/images/articles/article5.jpg";
 import article6 from "../public/images/articles/article6.jpg";
 import article7 from "../public/images/articles/article7.jpg";
 
+
 export default function Articles() {
   return (
+
     <div className="py-32"
       style={{
         backgroundImage: `url(${backgroundImage.src})`,

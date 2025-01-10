@@ -76,13 +76,16 @@ const Slider: React.FC<SliderProps> = ({ slides }) => {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
         </button>
-
-        {/* Image */}
-        <img
+{/* Image */}
+        <Image
           src={slides[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
+          width={600}          // Adjust width
+          height={400}         // Adjust height
           className="w-full h-auto rounded-lg"
-        />
+          objectFit="cover"
+          priority             // Prioritize loading this image
+        />
 
         {/* Next Button */}
         <button

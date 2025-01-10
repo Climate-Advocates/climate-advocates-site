@@ -31,7 +31,7 @@ export default function Articles() {
       <div className="relative z-10">
         <h1 className="text-center text-3xl font-bold text-white">Business Development & Lifestyle Center Research Project</h1>
         <p className="text-center mt-4 text-white">
-          Explore our latest articles and insights on sustainability and climate advocacy.
+        Redefining Urban Sustainability: A Vision for a Greener, Community-Centric Future
         </p>
         <div className="mt-10 px-10">
         <Link href="https://youtu.be/QIVsLlSn1t0" passHref target="_blank">
@@ -67,34 +67,83 @@ export default function Articles() {
         </Link>
       </div>
 
-        {/* PDF Viewer Section - Flexbox for Side-by-Side Layout */}
-        <div className="flex flex-wrap justify-center gap-8 px-12 mt-10">
-          {/* PDF Viewer 1 */}
-          <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4">
-            <div className="bg-white p-4 rounded-lg shadow-lg">
-              <iframe
-                src="/images/Reports/report1.pdf"
-                width="100%"
-                height="400px"
-                title="PDF Viewer"
-                className="rounded-lg"
-              />
-            </div>
-          </div>
+       {/* PDF Viewer Section - Flexbox for Side-by-Side Layout */}
+<div className="flex flex-wrap justify-center gap-6 px-6 mt-10">
+  {/* PDF Viewer 1 */}
+  <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4">
+    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-gray-700">
+      <div className="flex flex-col items-center">
+        <Image
+          src="/images/pdf1.png"
+          alt="thumbnail"
+          className="w-32 h-32 rounded-full object-cover mb-4"
+          width={500}
+          height={500}
+        />
+        <h3 className="text-lg font-semibold mb-2">Technical Report 1</h3>
+        <a
+          href="/images/Reports/report1.pdf"
+          download
+          className="flex items-center gap-2 text-blue-600 hover:text-blue-800"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-5 h-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
+            />
+          </svg>
+          Download PDF
+        </a>
+      </div>
+    </div>
+  </div>
 
-          {/* PDF Viewer 2 */}
-          <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4">
-            <div className="bg-white p-4 rounded-lg shadow-lg mb-10">
-              <iframe
-                src="/images/Reports/report2.pdf"
-                width="100%"
-                height="400px"
-                title="PDF Viewer"
-                className="rounded-lg"
-              />
-            </div>
-          </div>
-        </div>
+  {/* PDF Viewer 2 */}
+  <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/4 mb-10">
+    <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow text-gray-700">
+      <div className="flex flex-col items-center">
+        <Image
+          src="/images/pdf2.png"
+          alt="thumbnail"
+          className="w-32 h-32 rounded-full object-cover mb-4"
+          width={500}
+          height={500}
+        />
+        <h3 className="text-lg font-semibold mb-2">Technical Report 2</h3>
+        <a
+          href="/images/Reports/report2.pdf"
+          download
+          className="flex items-center gap-2 text-blue-600 hover:text-blue-800"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-5 h-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5m0 0l5-5m-5 5V4"
+            />
+          </svg>
+          Download PDF
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
         <h1 className="text-center text-3xl font-bold text-white">Articles</h1>
         <p className="text-center mt-4 text-white">
           Explore our latest articles and insights on sustainability and climate advocacy.
@@ -148,7 +197,7 @@ export default function Articles() {
             imageSrc={article7}
             title="Role of climate change in Sri Lanka’s economic woes"
             description="Growing 1.6% in the third quarter of 2023, Sri Lanka’s economy has experienced a significant shift from the dire economic crisis it faced just a year ago. The crisis led to riots and the resignation of former..."
-            author="Sandev Ferdinando"
+            author="Don Sandev Ferdinando"
             articleLink="/articles/article7"
           />
           <Card

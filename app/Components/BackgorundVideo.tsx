@@ -15,7 +15,9 @@ export default function BackgroundVideo() {
       {/* Overlay Content */}
       <div className="absolute top-0 left-0 w-full h-full bg-black/50 flex items-end justify-center z-10">
         <section className="relative z-20 flex flex-col items-center justify-end gap-5 h-full pb-20 mt-20">
-          <h1 className="text-5xl font-bold text-white">Climate Advocates</h1>
+        <h1 className="text-4xl font-bold mb-6 pt-16 text-center w-full">
+          Climate Advocates
+        </h1>
           <p className="text-xl text-gray-300">Advocating for a better world</p>
           <button className="px-5 py-3 bg-green-500 text-white rounded-lg font-bold">
             Get Started

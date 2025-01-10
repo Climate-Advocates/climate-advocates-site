@@ -82,7 +82,7 @@ export default function Articles() {
         />
         <h3 className="text-lg font-semibold mb-2">Technical Report 1</h3>
         <a
-          href="/images/Reports/report1.pdf"
+          href="https://drive.google.com/file/d/1S0bKEFcnnnKpppJT64Wt9Eoy7D_fk8Zc/view?usp=sharing"
           download
           className="flex items-center gap-2 text-blue-600 hover:text-blue-800"
         >
@@ -119,7 +119,7 @@ export default function Articles() {
         />
         <h3 className="text-lg font-semibold mb-2">Technical Report 2</h3>
         <a
-          href="/images/Reports/report2.pdf"
+          href="https://drive.google.com/file/d/1k8m6NcJCZPaTcHoeaC4NIiTDvr2SaVLQ/view?usp=sharing"
           download
           className="flex items-center gap-2 text-blue-600 hover:text-blue-800"
         >

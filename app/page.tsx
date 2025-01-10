@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import BackgroundVideo from "./Components/BackgorundVideo";
 import Card from "./Components/CardCarausal";
 import VCard2 from "./Components/videoCards/vCard2";
@@ -13,6 +14,7 @@ import article2 from "./public/images/articles/article2.jpg";
 import article3 from "./public/images/articles/article3.jpg";
 import article4 from "./public/images/articles/article4.jpg";
 
+// Slide arrays
 const slide1 = [
   "/images/Slide1/1.png",
   "/images/Slide1/2.png",
@@ -35,7 +37,12 @@ const slide2 = [
   "/images/Slide2/11.png",
 ];
 
-const Slider = ({ slides }) => {
+// Slider Component
+interface SliderProps {
+  slides: string[];  // Type for slides prop
+}
+
+const Slider: React.FC<SliderProps> = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handlePrev = () => {
@@ -71,16 +78,11 @@ const Slider = ({ slides }) => {
         </button>
 
         {/* Image */}
-        <Image
+        <img
           src={slides[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
-          width={600}          // Adjust width
-          height={400}         // Adjust height
           className="w-full h-auto rounded-lg"
-          objectFit="cover"
-          priority             // Prioritize loading this image
         />
-
 
         {/* Next Button */}
         <button
@@ -101,7 +103,7 @@ const Slider = ({ slides }) => {
     </div>
   );
 };
- 
+
 export default function Home() {
   return (
     <>
@@ -116,6 +118,7 @@ export default function Home() {
         style={{
           backgroundImage: `url(${BackgroundImage.src})`,
         }}
+        
       >
         <div className="relative top-0 left-0 w-screen h-full bg-black/70 flex flex-col items-center justify-center py-10">
           {/* Sliders */}
@@ -124,7 +127,7 @@ export default function Home() {
             <div className="mx-16"><Slider slides={slide2} /></div>
           </div>
 
-          <h1 className="text-4xl font-bold mb-6 pt-16 text-center w-full">
+          <h1 className="text-4xl font-bold mb-6 pt-16">
             Featured Articles and Posts
           </h1>
           <div className="gap-8 bg-opacity-70 h-1/2 rounded-3xl w-auto px-2 py-12 text-center flex flex-wrap justify-center">

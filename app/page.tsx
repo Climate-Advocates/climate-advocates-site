@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 import BackgroundVideo from "./Components/BackgorundVideo";
 import Card from "./Components/CardCarausal";
 import VCard2 from "./Components/videoCards/vCard2";

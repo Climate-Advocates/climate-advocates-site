@@ -78,16 +78,11 @@ const Slider: React.FC<SliderProps> = ({ slides }) => {
         </button>
 
         {/* Image */}
-        <Image
+        <img
           src={slides[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
-          width={600}          // Adjust width
-          height={400}         // Adjust height
           className="w-full h-auto rounded-lg"
-          objectFit="cover"
-          priority             // Prioritize loading this image
         />
-
 
         {/* Next Button */}
         <button
@@ -123,6 +118,7 @@ export default function Home() {
         style={{
           backgroundImage: `url(${BackgroundImage.src})`,
         }}
+        
       >
         <div className="relative top-0 left-0 w-screen h-full bg-black/70 flex flex-col items-center justify-center py-10">
           {/* Sliders */}
@@ -131,7 +127,7 @@ export default function Home() {
             <div className="mx-16"><Slider slides={slide2} /></div>
           </div>
 
-          <h1 className="text-4xl font-bold mb-6 pt-16 text-center w-full">
+          <h1 className="text-4xl font-bold mb-6 pt-16">
             Featured Articles and Posts
           </h1>
           <div className="gap-8 bg-opacity-70 h-1/2 rounded-3xl w-auto px-2 py-12 text-center flex flex-wrap justify-center">

@@ -47,14 +47,14 @@ shortest path evolved through multiple iterations.
           The algorithm began at Node 1, which was assigned a distance of 0, while all other nodes were
 initialized with a distance of infinity (inf), as their shortest paths were unknown. A priority queue
 (min-heap) was used to select the next node to process, ensuring that the node with the smallest
-known distance was always selected first. In the first iteration, Node 1's directly connected
+known distance was always selected first. In the first iteration, Node 1&rsquo;s directly connected
 neighbours were updated with their respective distances, marking the initial expansion of the
 shortest path.
           </p>
           <p>
           As the algorithm progressed, it selected the nearest node at each step and updated the distances to
 its neighbouring nodes if a shorter path was found. Node 17 was the first to be processed after
-Node 1, as it had the smallest known distance of 190 meters. This led to an update in Node 20’s
+Node 1, as it had the smallest known distance of 190 meters. This led to an update in Node 20&rsquo;s
 shortest distance, which was recorded as 460 meters. Following this, Node 10 was selected in the
 next iteration with a distance of 240 meters, leading to further updates in the shortest known paths
 to Nodes 15 and 12, both set to 680 meters. The algorithm then proceeded to Node 4 and Node 9,
@@ -64,7 +64,7 @@ significant changes beyond what was already established.
           <p>
           In the middle iterations, further refinements were made as Node 8 was selected with a distance of
 350 meters, leading to updates in the shortest paths to Nodes 13 and 14, both set at 830 meters.
-Similarly, Node 6, processed at 600 meters, updated Node 13’s shortest known path to 760 meters.
+Similarly, Node 6, processed at 600 meters, updated Node 13&rsquo;s shortest known path to 760 meters.
 At this stage, the algorithm had already determined paths for most of the nodes in the network.
 The later iterations primarily focused on confirming the shortest known paths rather than
 introducing major updates.

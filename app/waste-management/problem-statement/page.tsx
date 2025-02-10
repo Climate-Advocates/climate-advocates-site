@@ -33,12 +33,12 @@ export default function page() {
           {/* Article Content */}
           <div className="space-y-6 text-base sm:text-lg leading-relaxed mx-auto max-w-4xl text-justify">
             <p>
-            Colombo, Sri Lanka's capital, is grappling with severe challenges in Municipal Solid Waste
+            Colombo, Sri Lanka&rsquo;s capital, is grappling with severe challenges in Municipal Solid Waste
 Management (MSWM) due to rapid urbanization and population growth. The city generates
 approximately 800 metric tons (MT) of solid waste daily, of which only about 450-500 MT of
 degradable waste and 150-200 MT of non-degradable waste are collected, resulting in a collection
 coverage of approximately 87.5%. The primary disposal methods include open dumping and
-composting, which are increasingly inadequate for the city's growing waste output. A significant
+composting, which are increasingly inadequate for the city&rsquo;s growing waste output. A significant
 portion of MSWM costs in Colombo is allocated to waste collection and transportation rather than
 disposal and treatment. The current practice involves transporting all waste from households to
 disposal stations along predetermined routes. This process is not only labour-intensive but also

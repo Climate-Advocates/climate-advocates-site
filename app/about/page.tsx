@@ -109,7 +109,7 @@ export default function About() {
     <div className="pt-20">
     <div className="w-full text-center">
       {/*logos*/}
-      <div className="flex  justify-between bg-foreground/70 px-20 py-4 items-center">
+      <div className="flex  justify-between bg-foreground/60 px-20 py-4 items-center">
         <div className="">
             <Image
               src={action_to_impact_logo_rgb}

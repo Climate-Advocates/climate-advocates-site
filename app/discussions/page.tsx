@@ -2,6 +2,10 @@ import VCard2 from "../Components/videoCards/vCard2";
 import VCard3 from "../Components/videoCards/vCard3";
 import VCard4 from "../Components/videoCards/vCard4";
 import VCard5 from "../Components/videoCards/vCard5";
+import VCard6 from "../Components/videoCards/vCard6";
+import VCard7 from "../Components/videoCards/vCard7";
+import VCard8 from "../Components/videoCards/vCard8";
+import VCard9 from "../Components/videoCards/vCard9";
 import VideoCardSet from "../Components/videoCards/VIdeoCardSet";
 import backgroundImage from "../public/images/article-bg.jpg";
 
@@ -36,6 +40,10 @@ export default function Discussions() {
             <VCard2 />
             <VCard3 />
             <VCard5 />
+            <VCard6 />
+            <VCard7 />
+            <VCard8 />
+            <VCard9 />
           </div>
         </div>
       </div>

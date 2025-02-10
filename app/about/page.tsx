@@ -5,6 +5,10 @@ import Danujaya from "../public/images/Danujaya.jpg";
 import Dinu from "../public/images/Dinu.jpg";
 import Kavinya from "../public/images/Kavinya.jpg";
 import Lakshitha from "../public/images/Lakshitha.jpg";
+import action_to_impact_logo_rgb from "../images/about-us-logos/action_to_impact_logo_rgb.png";
+import climate_action from "../images/about-us-logos/climate action.png";
+import G17_uni_amb from "../images/about-us-logos/G17 Uni Amb.png";
+import officical_logo from "../images/about-us-logos/Official Logo-01.png";
 import Namasha from "../public/images/Namasha.jpg";
 import Ridmi from "../public/images/Ridmi.jpg";
 import Sanduni from "../public/images/Sanduni.jpg";
@@ -103,6 +107,39 @@ export default function About() {
 
   return (
     <div className="pt-20">
+    <div className="w-full text-center">
+      {/*logos*/}
+      <div className="flex  justify-between bg-foreground/70 px-20 py-4 items-center">
+        <div className="">
+            <Image
+              src={action_to_impact_logo_rgb}
+              height={50}
+              alt={"action_to_impact_logo_rgb"}         
+             />
+        </div>
+        <div className="">
+          <Image
+            src={officical_logo}
+            height={100}
+              alt={"officical_logo"} 
+          />
+        </div>
+        <div className="">
+          <Image
+            src={G17_uni_amb}
+            height={50}
+              alt={"G17_uni_amb"} 
+          />
+        </div>
+        <div className="">
+          <Image
+            src={climate_action}
+            height={80}
+              alt={"climate_action"} 
+          />
+        </div>
+      </div>
+      </div>
       {/* Group Photo */}
       <div className="w-full text-center">
         <Image
@@ -117,10 +154,40 @@ export default function About() {
       {/* Page Title */}
       <div className="mt-10">
         <h1 className="text-center text-3xl font-bold">About Us</h1>
-        <p className="text-center mt-4">
-          Learn more about Climate Advocates and our mission to create a better
-          world.
-        </p>
+        <div className="text-center my-8 mx-10 grid md:flex gap-10">
+          <div className="flex flex-col  bg-foreground/50 gap-4 rounded-lg shadow-lg p-6 w-full">
+            <h2 className="text-xl font-semibold">The Road to Rights</h2>
+            <p className="text-justify font-light text-background/70">
+            Founded in 2009 in Sri Lanka by Ashan Perera, The Road to Rights began as a childhood dream to serve humanity and empower young people to create change. Today, it has grown into a global movement, inspiring youth to promote human rights education, equality, and sustainable development.
+            At Road to Rights, we believe that every individual has untapped potential waiting to be discovered. Sometimes, that potential is hidden, waiting for the right challenge to bring it to life. By providing opportunities, pushing boundaries, and promoting creativity, we help young people unlock their true capabilities, enabling them to lead, innovate, and transform their communities. Through education, advocacy, and action, we nurture young changemakers who believe in a future where human rights education, peace, and sustainability are not just ideals, but realities.
+            </p>
+            <p className="mt-4 text-justify">
+              Discover more:{" "}
+              <a href="https://www.roadtorights.org" target="_blank" rel="noopener noreferrer" className="text-blue-400">www.roadtorights.org</a></p>
+            </div>
+            <div className="flex flex-col  bg-foreground/50 gap-4 rounded-lg shadow-lg p-6 w-full">
+            <h2 className="text-xl font-semibold">G17 University Ambassadors Consortium (G17 UAC)</h2>
+            <p className="text-justify font-light text-background/70">
+            As part of this vision, The Road to Rights International established the G17 University Ambassadors Consortium (G17 UAC), a global fellowship program dedicated to strengthening the future of work by shaping university students into resilient, impact-driven leaders. Each year, we appoint 17 ambassadors per university, each representing one of the 17 Sustainable Development Goals (SDGs). Through hands-on leadership training, real-world projects, and policy advocacy, these ambassadors gain the skills, adaptability, and global mindset needed to thrive in an ever-evolving world.
+G17 UAC is more than just a fellowship. It is a transformative experience that prepares young people not only to lead change in their communities but also to navigate and shape the future of work. By challenging perspectives, promoting innovation, and equipping students with the tools to drive sustainable progress, we empower them to become the professionals, entrepreneurs, and changemakers of tomorrow.
+
+            </p>
+            <p className="mt-4 text-justify">
+  Discover more:{" "}
+  <a href="https://www.g17global.org" target="_blank" rel="noopener noreferrer" className="text-blue-400">
+    www.g17global.org
+  </a>
+</p>
+            </div>
+            </div>
+
+            <div className="flex flex-col items-center  bg-foreground/50 gap-4 mx-10 rounded-lg shadow-lg p-6">
+            <h2 className="text-xl font-semibold">About the Website</h2>
+            <p className="text-center font-light text-background/70">
+            This website was created as part of the G17 University Ambassadors Consortium global fellowship program to fulfil a key requirement in completing the G17 Ambassadorship by the G17 Ambassador for SDG 13: Climate Action at SLIIT. This project aims to raise awareness about the urgency of combating climate change, promote sustainable practices, and inspire collective action toward achieving SDG 13: Climate Action. [Change accordingly]
+            </p>
+            </div>
+
       </div>
 
       {/* Project Owner Section */}

@@ -3,7 +3,7 @@ import backgroundImage from "../../public/images/article-bg.jpg";
 export default function page() {
   return (
     <div
-      className="pt-20 relative"
+      className="pt-20 h-screen relative"
       style={{
         backgroundImage: `url(${backgroundImage.src})`,
         backgroundSize: "cover",

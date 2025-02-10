@@ -74,15 +74,15 @@ export default function WasteManagement() {
       </div>
 
       {/* Report Section */}
-      <div className="flex items-start my-10 mx-20">
+      <div className="flex items-start my-10 gap-20 mx-20">
         <div className="w-full">
           <section>
             {/* Container */}
-            <div className="mx-auto flex w-full max-w-7xl flex-col items-center justify-center ">
+            <div className="mx-auto flex w-full max-w-7xl flex-col justify-start ">
               {/* FAQs */}
               <div className="flex w-full gap-2 max-w-4xl flex-col">
                 {/* FAQ BLOCK */}
-				<Link href="/waste-management/introduction" passHref>
+				    <Link href="/waste-management/introduction" passHref>
                 <div className="relative w-full rounded-md  bg-foreground/50 hover:bg-foreground/40 transform translate ease-linear duration-100 px-12 py-4">
                   <div className="max-w-3xl flex justify-between items-center">
                     <h2 className="font-bold text-white text-xl">Introduction</h2>
@@ -271,7 +271,7 @@ export default function WasteManagement() {
           </section>
         </div>
 
-        <div className="w-full md:w-1/2">
+        <div className="w-full">
           <Image
             src={Picture2}
             alt="Waste Management Report"
@@ -281,7 +281,7 @@ export default function WasteManagement() {
           />
           <button
             onClick={handleDownload}
-            className="bg-white text-black text-lg w-full font-semibold py-2 px-4 rounded-lg mt-4 hover:bg-gray-200 transition duration-300"
+            className="bg-white text-primary text-lg w-full font-semibold py-2 px-4 rounded-lg mt-4 hover:bg-gray-200 transition duration-300"
           >
             Download Report
           </button>

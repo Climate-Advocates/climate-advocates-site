@@ -44,9 +44,9 @@ reference, Node 1 is designated as the starting point, and Node 22 represents th
 location. Google Maps was also used to verify and supplement distance data.
           </p>
 
-          <h2 className="text-2xl font-bold text-white mt-8">Dijkstra's Algorithm for Route Optimization</h2>
+          <h2 className="text-2xl font-bold text-white mt-8">Dijkstra&rsquo;s Algorithm for Route Optimization</h2>
           <p>
-          Dijkstra's Algorithm is a well-established computational technique used to determine the shortest
+          Dijkstra&rsquo;s Algorithm is a well-established computational technique used to determine the shortest
 path between nodes in a weighted graph. Originally developed by Edsger W. Dijkstra in 1956, this
 algorithm has found extensive applications in route optimization due to its efficiency and
 adaptability. In graph-based systems, nodes represent specific locations, and edges represent the
@@ -55,7 +55,7 @@ In this study, the algorithm is applied to optimize waste collection routes by d
 efficient paths from waste generation points to landfill sites.
           </p>
           
-          <h2 className="text-2xl font-bold text-white mt-8">The steps of Dijkstra's Algorithm are as follows:</h2>
+          <h2 className="text-2xl font-bold text-white mt-8">The steps of Dijkstra&rsquo;s Algorithm are as follows:</h2>
           <ol className="list-decimal ml-6">
             <li>Node Selection: Identify the unvisited node with the smallest tentative distance and mark
             it as the current node.</li>
@@ -71,16 +71,16 @@ is finalized or all nodes have been visited.
             reconstruct the optimal route (Santoso et al., 2024).</li>
           </ol>
 
-          <h2 className="text-2xl font-bold text-white mt-8">Implementation of Dijkstra’s Algorithm Using Python</h2>
+          <h2 className="text-2xl font-bold text-white mt-8">Implementation of Dijkstra&rsquo;s Algorithm Using Python</h2>
           <p>
-          Python was utilized to implement Dijkstra’s Algorithm for optimizing waste transportation routes
+          Python was utilized to implement Dijkstra&rsquo;s Algorithm for optimizing waste transportation routes
 due to its efficient computational capabilities and extensive library support. The implementation
 involved constructing a graph representation of collection points and road distances using the
 NetworkX library. The algorithm was executed using a priority queue (heap), ensuring that the
 shortest path was computed efficiently while dynamically updating distances. Additionally,
 Matplotlib was used to visualize the graph at each iteration, allowing for a step-by-step analysis
 of the path optimization process. This approach enabled the identification of an optimal route that
-minimizes travel distance while covering all required collection points, demonstrating Python’s
+minimizes travel distance while covering all required collection points, demonstrating Python&rsquo;s
 effectiveness in solving complex route optimization problems in waste management logistics
           </p>
         

@@ -184,7 +184,7 @@ G17 UAC is more than just a fellowship. It is a transformative experience that p
             <div className="flex flex-col items-center  bg-foreground/50 gap-4 mx-10 rounded-lg shadow-lg p-6">
             <h2 className="text-xl font-semibold">About the Website</h2>
             <p className="text-center font-light text-background/70">
-            This website was created as part of the G17 University Ambassadors Consortium global fellowship program to fulfil a key requirement in completing the G17 Ambassadorship by the G17 Ambassador for SDG 13: Climate Action at SLIIT. This project aims to raise awareness about the urgency of combating climate change, promote sustainable practices, and inspire collective action toward achieving SDG 13: Climate Action. [Change accordingly]
+            This website was created as part of the G17 University Ambassadors Consortium global fellowship program to fulfil a key requirement in completing the G17 Ambassadorship by the G17 Ambassador for SDG 13: Climate Action at SLIIT. This project aims to raise awareness about the urgency of combating climate change, promote sustainable practices, and inspire collective action toward achieving SDG 13: Climate Action.
             </p>
             </div>
 
